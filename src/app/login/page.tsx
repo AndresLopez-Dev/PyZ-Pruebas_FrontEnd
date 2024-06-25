@@ -15,8 +15,8 @@ function Login() {
                     <FormLogin/>
                 </div>
             </div>
+        </main>
     )
-
 }
 
 export default Login
