@@ -1,0 +1,16 @@
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+- stage: Inicio
+  jobs:
+    - job: Hola_mundo
+      continueOnError: false
+      steps:
+        - script: npm build
+          displayName: Build
+          workingDirectory: $(System.DefaultWorkingDirectory)/src
