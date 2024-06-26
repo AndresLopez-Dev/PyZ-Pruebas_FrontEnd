@@ -15,6 +15,7 @@ function Login() {
                     <FormLogin/>
                 </div>
             </div>
+        </main>
     )
 }
 
