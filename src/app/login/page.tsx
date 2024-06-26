@@ -14,8 +14,6 @@ function Login() {
                     <Logo src="/img/Logo.svg" alt='LogoSena'></Logo>
                     <FormLogin/>
                 </div>
-            </div>
-        </main>
     )
 }
 
