@@ -13,6 +13,6 @@ stages:
       steps:
         - task: NodeTaskRunnerInstaller@0
           displayName: 'Install node runner 6'
-        - script: npm ci
+        - script: pwd
           displayName: Build
           workingDirectory: $(System.DefaultWorkingDirectory)/src
