@@ -13,8 +13,20 @@ stages:
       steps:
         - task: NodeTaskRunnerInstaller@0
           displayName: 'Install node runner 6'
-        - script: npm ci
-            npm run build
-            npm run start
+        - script: npm ci && npm run build && npm run start
           displayName: Build
           workingDirectory: $(System.DefaultWorkingDirectory)/src
+        - bash: |
+            # Write your commands here
+            
+            npm --version
+          displayName: 'Bash Script'
+
+        - bash: |
+            cd /home/david/Herramientas_DevOps/myagent/_work/1/s
+            pwd
+            npm ci
+            npm run build
+            npm run start
+          workingDirectory: '/home/david/Herramientas_DevOps/myagent/_work/1/s'
+          displayName: 'Bash Script'
