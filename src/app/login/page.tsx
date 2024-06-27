@@ -11,7 +11,9 @@ function Login() {
                     <LeftSideContainer/>
                 </div>
                 <div className='right-side'>
-                    <Logo src="/img/Logo.svg" alt='LogoSena'></Logo>
+                    {/* <Logo src="/img/Logo.svg" alt='LogoSena'></Logo> */}
+                    <Logo src="../../../public/img/Logo.svg" alt='LogoSena'></Logo>
+                    <p>Hola</p>
                     <FormLogin/>
                 </div>
             </div>
