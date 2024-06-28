@@ -13,7 +13,7 @@ function Login() {
                 <div className='right-side'>
                     {/* <Logo src="/img/Logo.svg" alt='LogoSena'></Logo> */}
                     <Logo src="../../../public/img/Logo.svg" alt='LogoSena'></Logo>
-                    <p>Hola de nuevo</p>
+                    <p>Prueba git concourse ci</p>
                     <FormLogin/>
                 </div>
             </div>
