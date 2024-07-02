@@ -21,4 +21,4 @@ steps:
   - echo hello
   - echo world
   - pwd
-  - ll
+  - ls -la
