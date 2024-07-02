@@ -28,7 +28,7 @@ steps:
     USERNAME: 
       from_secret: user_name
   commands:
-  - echo $USERNAME
+  - echo hola $USERNAME
 
 # - name: start
 #   image: node
