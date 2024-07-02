@@ -1,13 +1,13 @@
-# kind: pipeline
-# name: default
+kind: pipeline
+name: default
 
-# steps:
-# - name: test
-#   image: node
-#   commands:
-#   - npm install
-#   - npm run lint
-#   - npm test
+steps:
+- name: test
+  image: node
+  commands:
+  - npm install
+  - npm run lint
+  - npm test
 
 kind: pipeline
 type: docker
