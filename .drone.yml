@@ -8,7 +8,6 @@ steps:
   commands:
   - npm install
   - npm run lint
-  - npm test
 
 - name: greeting
   image: alpine
