@@ -12,7 +12,7 @@ steps:
 - name: build
   image: node
   commands:
-  - npm build
+  - npm run build
 
 - name: greeting
   image: alpine
