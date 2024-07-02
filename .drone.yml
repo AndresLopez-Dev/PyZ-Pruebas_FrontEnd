@@ -14,7 +14,6 @@ steps:
   commands:
   - npm run build
   - echo build pyz app
-  - npm run start
 
 - name: greeting
   image: alpine
@@ -24,7 +23,7 @@ steps:
   - pwd
   - ls -la
 
-  # - name: start
-  # image: node
-  # commands:
-  # - npm run start
+- name: start
+  image: node
+  commands:
+  - npm run start
