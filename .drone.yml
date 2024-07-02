@@ -1,4 +1,5 @@
 kind: pipeline
+type: docker
 name: default
 
 steps:
@@ -9,11 +10,6 @@ steps:
   - npm run lint
   - npm test
 
-kind: pipeline
-type: docker
-name: default
-
-steps:
 - name: greeting
   image: alpine
   commands:
