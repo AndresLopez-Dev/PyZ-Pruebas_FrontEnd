@@ -13,6 +13,7 @@ steps:
   image: node
   commands:
   - npm run build
+  - echo build pyz app
 
 - name: greeting
   image: alpine
