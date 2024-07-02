@@ -27,4 +27,4 @@ steps:
   image: node
   commands:
   - npm run start
-  - echo start pyz app
+  - echo "start pyz app"
