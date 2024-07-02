@@ -21,7 +21,7 @@ steps:
     USERNAME: 
       from_secret: user_name
   commands:
-  - echo hello $USERNAME
+  - echo $USERNAME
   - echo world
   - pwd
   - ls -la
