@@ -6,7 +6,7 @@ steps:
 - name: test
   image: node
   commands:
-  - npm install
+  - npm ci
   - npm run lint
 
 - name: build
@@ -23,8 +23,8 @@ steps:
   - pwd
   - ls -la
 
-  - name: start
-  image: node
-  commands:
-  - npm run start
-  - echo "start pyz app"
+  # - name: start
+  # image: node
+  # commands:
+  # - npm run start
+  # - echo "start pyz app"
