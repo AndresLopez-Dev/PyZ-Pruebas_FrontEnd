@@ -28,6 +28,7 @@ steps:
     USERNAME: 
       from_secret: user_name
     USERNAMETWO: David
+    NEWUSER: NuevoDavid
   commands:
   - echo hola $USERNAME
   - echo Hola $USERNAMETWO
