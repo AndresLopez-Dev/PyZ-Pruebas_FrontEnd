@@ -27,8 +27,10 @@ steps:
   environment:
     USERNAME: 
       from_secret: user_name
+    USERNAMETWO: David
   commands:
   - echo hola $USERNAME
+  - echo Hola $USERNAMETWO
 
 # - name: start
 #   image: node
