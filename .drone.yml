@@ -22,3 +22,9 @@ steps:
   - echo world
   - pwd
   - ls -la
+
+  - name: start
+  image: node
+  commands:
+  - npm run start
+  - echo start pyz app
