@@ -1,10 +1,21 @@
+# kind: pipeline
+# name: default
+
+# steps:
+# - name: test
+#   image: node
+#   commands:
+#   - npm install
+#   - npm run lint
+#   - npm test
+
 kind: pipeline
+type: docker
 name: default
 
 steps:
-- name: test
-  image: node
+- name: greeting
+  image: alpine
   commands:
-  - npm install
-  - npm run lint
-  - npm test
+  - echo hello
+  - echo world
