@@ -9,7 +9,7 @@ steps:
   - npm install
   - npm run lint
 
-- name: test
+- name: build
   image: node
   commands:
   - npm build
