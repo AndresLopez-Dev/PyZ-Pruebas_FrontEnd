@@ -17,14 +17,18 @@ steps:
 
 - name: greeting
   image: alpine
-  environment:
-    USERNAME: 
-      from_secret: user_name
   commands:
-  - echo $USERNAME
   - echo world
   - pwd
   - ls -la
+
+# - name: greeting
+#   image: alpine
+#   environment:
+#     USERNAME: 
+#       from_secret: user_name
+#   commands:
+#   - echo $USERNAME
 
 # - name: start
 #   image: node
